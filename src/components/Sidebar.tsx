@@ -34,6 +34,19 @@ const Sidebar = () => {
                 <li className="px-4 py-2 font-normal text-sm flex items-center cursor-pointer">
                     <img src={LikedVideos} alt="" className="pr-4 w-8" />
                     Liked Videos</li>
+                
+                <li className="px-4 py-2 font-normal text-sm flex items-center cursor-pointer">
+                    <img src={Library} alt="" className="pr-4 w-8" />
+                    Library</li>
+                <li className="px-4 py-2 font-normal text-sm flex items-center cursor-pointer">
+                    <img src={History} alt="" className="pr-4 w-8" />
+                    History</li>
+                <li className="px-4 py-2 font-normal text-sm flex items-center cursor-pointer">
+                    <img src={WatchLater} alt="" className="pr-4 w-8" />
+                    Watch Later</li>
+                <li className="px-4 py-2 font-normal text-sm flex items-center cursor-pointer">
+                    <img src={LikedVideos} alt="" className="pr-4 w-8" />
+                    Liked Videos</li>
             </ul>
         </div>
     )

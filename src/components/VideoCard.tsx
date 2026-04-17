@@ -3,10 +3,10 @@ import { SiTicktick } from "react-icons/si";
 
 const VideoCard = () => {
     return (
-        <div className="flex flex-col">
+        <div>
             <div>
                 <img src="https://cdn.pixabay.com/photo/2015/04/19/08/32/flower-729510_1280.jpg"
-                    alt="" className="rounded-2xl w-1/3" />
+                    alt="" className="rounded-2xl w-98" />
             </div>
             <div className="py-3 flex items-start gap-3">
                 <div>
@@ -20,7 +20,6 @@ const VideoCard = () => {
                 </div>
             </div>
         </div>
-
     )
 }
 
