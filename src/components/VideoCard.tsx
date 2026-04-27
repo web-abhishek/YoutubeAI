@@ -1,7 +1,13 @@
 import { SiTicktick } from "react-icons/si";
 
+type Props
 
-const VideoCard = () => {
+const VideoCard = ({info}) => {
+
+    console.log(info);
+
+    console.log(info)
+
     return (
         <div>
             <div>
